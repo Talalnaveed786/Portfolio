@@ -1,0 +1,126 @@
+@media screen and (max-width:1400px){
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    
+
+    }
+
+    .about-container{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (max-width:1200px){
+    #desktop{
+        display:none;
+    }
+    #mob-nav{
+        display: flex;
+    }
+
+   
+
+    #experience, .experience-details-container{
+        margin-top: 2rem;
+    }
+    #profile, .section-container{
+        display: block;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    section, .section-container{
+        height: fit-content;
+    }
+    section{
+        margin:0 5%;
+    }
+    .pic-section{
+        height:275px;
+        width:275px;
+        margin : 0 auto ;
+    }
+
+    .about-containers{
+        margin-top: 0;
+    }
+
+    
+}
+
+@media screen and (max-width:600px){
+    #contact, footer{
+        height:40vh;
+    }
+    #profile{
+        height:83vh;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+
+
+
+    footer nav{
+        height:fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-containers, .upper-contact-container , .btn-container{
+        flex-wrap: wrap;
+    }
+    
+    .contact-info-container{
+        margin: 0;
+    }
+    .contact-info-container p , .links li a{
+font-size: 1rem;
+    }
+    .experience-sub-title{
+        font-size: 1.25rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .links{
+        flex-direction: column;
+        gap:0.5rem;
+        text-align: center;
+    }
+
+    .pic-section{
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+    #contact{
+        margin-top: 9rem;
+    }
+    #contact .intro , .upper-contact-container{  
+        position: relative;
+        bottom: 3rem;
+    } 
+    
+    #experience .experience-details-container{
+        position: relative;
+        bottom: 3rem;
+    }
+    .text-section-p2{
+        font-size: 1.25rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+
+    .text-container{
+        text-align: justify;
+    }
+    .text-section{
+        margin-top: 3rem;
+    }
+
+}
